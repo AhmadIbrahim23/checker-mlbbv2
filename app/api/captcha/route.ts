@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import axios from 'axios';
 
-const CAPTCHA_API_URL = 'http://149.104.77.174:1337/token';
+const CAPTCHA_API_URL = 'https://checker-mlbb.vercel.app/api/captcha';
 
 export async function GET() {
   try {
